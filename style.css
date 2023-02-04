@@ -1,26 +1,86 @@
 body{
- margin: 0;
- font-family: 'Anton', sans-serif;
+     margin: 0;
+     font-family: 'Anton', sans-serif;
 }
 h1{
- font-size: 50px;
+     font-size: 50px;
 }
-.name-highlight{
- color: orange;
+h2{
+     font-size: 40px;
+}
+p{
+     color: darkcyan;
+}
+.orange-highlight{
+     color: orange;
 }
 .half-width{
- width: 40%;
- float: left;
- margin-left: 5%;
- padding-left: 2%;
+     width: 40%;
+     float: left;
+     margin-left: 5%;
+     padding-left: 2%;
 }
 .half-width img{
- width: 100%;
+     width: 100%;
 }
 .top-banner{
- background-image: url("images/top-banner.png");
- background-repeat: no-repeat;
-}
+     background-image: url("images/top-banner.png");
+     background-repeat: no-repeat;
+ }
 section{
- height: 500px;
+     height: 500px;
+     padding-bottom: 150px;
 }
+.link-button{
+     text-decoration: none;
+     background-image: linear-gradient(50deg, darkgreen, darkturquoise);
+     padding: 10px 20px;
+     border-radius: 7px;
+     color: white;
+     float: 800;
+}
+.a-button{
+     text-decoration: none;
+     background-image: linear-gradient(50deg, rgb(20, 0, 100), rgb(0, 209, 42));
+     padding: 10px 20px;
+     border-radius: 7px;
+     color: white;
+     float: 800;
+}
+.dream-area{
+     background-image: url("images/dream-bg.png");
+     background-repeat: no-repeat;
+     background-position: right;
+}
+.color-change{
+     color: rgb(6, 6, 58);
+}
+.change{
+     color: rgb(202, 64, 9);
+}
+.single-experience{
+     box-shadow: 10px 10px 40px grey;
+     border-radius: 10px;
+     height: 80%;
+     background-color: rgb(62, 99, 172);
+}
+.experience{
+     background-image: url("images/exp-bg.png");
+     background-position: left;
+     background-repeat: no-repeat;
+}
+#full-stack{
+     border-left: 7px solid;
+     background-image: linear-gradient(180deg,rgb(62, 99, 172), rgb(51, 13, 87));
+     border-image-slice: 1;
+}
+#half-stack{
+     border-left: 7px solid;
+     background-image: linear-gradient(180deg,rgb(90, 18, 35), rgb(49, 18, 84));
+     border-image-slice: 1;
+ }
+ Footer p{
+     text-align: center;
+     color: firebrick;
+     font-size: 13px;
+ }
